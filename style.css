@@ -1,0 +1,89 @@
+ body {
+    max-width: 1440px;
+    margin-inline: auto;
+    font-family: "Playfair Display", serif;
+    min-height: 100vh;
+  }
+  main {
+    height: 100vh;
+  }
+  
+  #logo {
+    width: 50% !important;
+  }
+  
+  #navbarNav {
+    width: 30% !important;
+  }
+  
+  #nav-list {
+    justify-content: space-around !important;
+    width: 80%;
+  }
+  
+  #my-img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    filter: grayscale(1);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #my-contents {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #my-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem !important;
+  }
+  
+  .title {
+    font-size: 3rem;
+  }
+  .title > span {
+    display: block;
+  }
+  
+  .cta {
+    width: 180px;
+    font-size: 1.5rem;
+    background-color: #6c6ce7;
+    color: white;
+    border: inherit;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  .cta:hover {
+    border: 1px solid #6c6ce7;
+    background-color: transparent;
+    color: #6c6ce7;
+  }
+  
+  @media (max-width: 600px) {
+    .title {
+      font-size: 2rem;
+      text-align: center;
+      width: 95%;
+      margin: 0 auto;
+    }
+    p {
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .cta {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+    }
+  }
+  
